@@ -1,8 +1,17 @@
 cisco.vim
 =========
 
-Vim syntax for cisco configuration files.
+Vim syntax for cisco configuration (`show run` or `show start`) files.
 
+before
+------
+
+![config_before](http://momota.github.io/images/20160624_cisco-config_before.png)
+
+after
+-----
+
+![config_after](http://momota.github.io/images/20160624_cisco-config_after.png)
 
 Author
 ======
