@@ -20,7 +20,7 @@ syn keyword ciscoKeyword    logging log login password username user license hos
 syn keyword ciscoKeyword    address network route neighbor redistribute default-gateway community
 syn keyword ciscoKeyword    version class switchport clock name minimum maximum level size
 syn keyword ciscoKeyword    established source destination allowed
-syn keyword ciscoKeyword    timeout threshold frequency keepalive average weights
+syn keyword ciscoKeyword    timeout threshold frequency keepalive average weights mtu tunnel
 syn keyword ciscoKeyword    privilege secret
 syn match   ciscoKeyword    /timestamps\?/
 
@@ -61,7 +61,7 @@ syn match   ciscoInterface  /^ip\s\(sla\|vrf\)\s.*\d$/
 syn match   ciscoInterface  /^monitor\ssession\s\d\+$/
 syn match   ciscoInterface  /^\(class\|policy\|route\)\-map\s.*$/
 syn match   ciscoInterface  /^ip\saccess\-list\s\(standard\|extended\)\s.*$/
-syn match   ciscoInterface  /^vrf\scontext\s.*$/
+syn match   ciscoInterface  /^vrf\s\(definition\|context\)\s.*$/
 
 
 syn keyword ciscoAction     disable deny shutdown down none
