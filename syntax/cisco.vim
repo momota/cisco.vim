@@ -62,6 +62,7 @@ syn match   ciscoInterface  /^monitor\ssession\s\d\+$/
 syn match   ciscoInterface  /^\(class\|policy\|route\)\-map\s.*$/
 syn match   ciscoInterface  /^ip\saccess\-list\s\(standard\|extended\)\s.*$/
 syn match   ciscoInterface  /^vrf\s\(definition\|context\)\s.*$/
+syn match   ciscoInterface  /^address\-family\sipv.*$/
 
 
 syn keyword ciscoAction     disable deny shutdown down none
