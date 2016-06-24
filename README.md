@@ -4,6 +4,11 @@ cisco.vim
 Vim syntax for cisco configuration files.
 
 
+Author
+======
+
+[momota](https://github.com/momota)
+
 License
 =======
 
@@ -33,3 +38,11 @@ Pathogen
         NeoBundle 'momota/cisco.vim'
 
 2. Install with `:NeoBundleInstall`.
+
+
+Usage
+=====
+
+Save cisco configuration file as `*.cisco`.
+
+Or execute `:set ft=cisco`

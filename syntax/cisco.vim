@@ -38,8 +38,7 @@ syn keyword ciscoProtocol   cdp vtp spanning-tree lacp dot1Q l2tun ethernet
 syn keyword ciscoProtocol   aaa aaa-server
 syn match   ciscoProtocol   /traps\?/
 
-syn keyword ciscoConfigure  on tag
-syn keyword ciscoConfigure  activate set default redundancy prefer
+syn keyword ciscoConfigure  activate set default redundancy prefe ron tag
 syn keyword ciscoConfigure  inside outside input output static export import
 
 syn keyword ciscoFunction   service crypto encapsulation standby mode in out
