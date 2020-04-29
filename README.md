@@ -1,7 +1,9 @@
 cisco.vim
 =========
 
-Vim syntax for cisco configuration (`show run` or `show start`) files.
+Vim syntax for Cisco (and other platforms with similar configuration syntax)
+switches and routers (`show run` or `show start`) files.
+
 
 before
 ------
@@ -52,6 +54,8 @@ Pathogen
 Usage
 =====
 
-Save cisco configuration file as `*.cisco`.
+Limited auto-detection is available based on file contents
+
+Files ending with `*.cisco` will automatically receive the highlighting
 
 Or execute `:set ft=cisco`
